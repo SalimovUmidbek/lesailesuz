@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+  color: #fc004a;
+  border-bottom:2px solid #fc004a;
+  transition: 0.3s all;
+  border-radius: 1px;
+}
+.acive:active{
+  color: #fc004a;
+  border:1px solid #fc004a;
+}
+
+
+#ragionhover:hover{
+background-color: #fc004a;
+color: white;
+border: none;
+}
+
+
+#forposition{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 1250px){
+
+
+  /* .grid1{
+    display: flex;
+    flex-wrap: wrap;
+  } */
+}
+
+@media screen and (max-width: 1032px){
+  
+  .carausel{
+    font-size: 10px;
+    
+  }
+  .in{
+    padding-top: 12px;
+  }
+}
+@media screen and (max-width: 1092px){
+  .nav{
+    font-size: 13px;
+    display: flex;
+    
+    
+  }
+
+  .button{
+    font-size: 15px;
+    width: 230px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 839px){
+
+  .button{
+    font-size: 11px;
+  }
+  .button__basket{
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width: 737px){
+  .button{
+    display: none;
+  }
+}
+
+
+
+
+.showsomething{
+  display: none;
+}
+
+@media screen and (max-width: 578px){
+  .showsomething{
+    display: flex;
+  }
+  .nav{
+    display: none;
+  }
+
+  .not{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .same1{
+    width: 276px;
+  }
+  .kant{
+    flex-direction: column;
+    margin-top: 700px;
+  }
+  .hey{
+    padding-top: 700px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .whatthe{
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aga{
+    flex-direction: column;
+  }
+}
+
+.abi{
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
