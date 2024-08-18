@@ -103,7 +103,6 @@ border: none;
   }
   .kant{
     flex-direction: column;
-    margin-top: 700px;
   }
   .hey{
     padding-top: 700px;
@@ -111,13 +110,41 @@ border: none;
     padding-bottom: 20px;
   }
   .whatthe{
-    margin-top: 600px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .aga{
     flex-direction: column;
+  }
+
+  .byebye{
+    flex-direction: column;
+  }
+
+  .dunno{
+    width: 340px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .ban{
+    width: 300px;
+  }
+  .falo{
+    flex-direction: column;
+  }
+  .ben{
+    flex-direction: column;
+
+  }
+  .why{
+    margin-top: 20px;
+    
+  }
+  .abi{
+    padding-bottom: 20px;
   }
 }
 
