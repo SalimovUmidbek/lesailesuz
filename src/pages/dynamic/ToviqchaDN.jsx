@@ -26,7 +26,7 @@ const TovuqD = () => {
     <div>
       <div>
     <div className="w-full container px-16 py-[60px] border mx-auto mb-[30px] m-[40px]">
-      <div className="flex w-full gap-[50px] items-center">
+      <div className="flex w-full gap-[50px] items-center aga">
         <div>
           <img className='w-[300px]' src={data.img} alt="" />
         </div>
@@ -38,7 +38,7 @@ const TovuqD = () => {
             <p>{data.price}</p>
           </div>
 
-          <button onClick={() => getBasketData(data)} className='w-[384px] h-[68px] bg-[#fc004a] text-white rounded-[10px] mt-[30px]'>Savatga</button>
+          <button onClick={() => getBasketData(data)} className='w-[384px] h-[68px] bg-[#fc004a] text-white rounded-[10px] mt-[30px] should'>Savatga</button>
 
 
         </div>

@@ -146,6 +146,28 @@ border: none;
   .abi{
     padding-bottom: 20px;
   }
+
+  .centertext2{
+    width: 200px;
+    
+  }
+
+  .should{
+    width: 184px;
+  }
+  .theni{
+    font-size: 30px;
+    width: 228px;
+  }
+  .idkaboutit{
+    width: 228px;
+  }
+}
+
+@media screen and (max-width: 345px){
+  .forposition{
+    margin-left: 10px;
+  }
 }
 
 .abi{

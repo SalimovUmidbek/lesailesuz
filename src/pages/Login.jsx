@@ -25,12 +25,12 @@ const Login = ({ tel }) => {
   };
 
   return (
-    <section class="bg-gray-50 dark:bg-gray-900">
+    <section>
       <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-              Sign in to your account
+              <span className="text-[#fc004a]">Les Ailes</span> ga Xush kelibsiz
             </h1>
             <form class="space-y-4 md:space-y-6" action="#">
               <div>
@@ -38,7 +38,7 @@ const Login = ({ tel }) => {
                   for="phone"
                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
-                  Your phone number
+                  Telefon Raqamingizni Kiriting
                 </label>
                 <input
                   onChange={change}
@@ -54,9 +54,9 @@ const Login = ({ tel }) => {
               <button
                 type="submit"
                 onClick={getPhoneNum}
-                class="w-full text-dark bg-success-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                class="w-full text-dark bg-success-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-[#fc004a] text-white"
               >
-                Enter
+                Kirish
               </button>
             </form>
           </div>

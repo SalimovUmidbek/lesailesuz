@@ -23,11 +23,18 @@ export default function SwiperUZ() {
         className="mySwiper pt-[20px]"
         loop={true}
         pagination={{clickable: true}}
+        
+        autoplay={{
+          delay: 50,
+          disableOnInteraction: false
+        }}
+        
       >
-        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2022/11/25/LgEDSHKBwO32f34wX2Y8v7PgEPXw8j8efaUahYZO.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2022/02/23/0RkMpnz75Nb53YPXtFtOPEgq1Y4eZ0B7Y6WlEuxX.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/06/03/DmxEfFfkTx9oWWTl1FIxnRbD9gZH3s9cAbXrR3DC.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2023/11/29/ITCh1U2D50OUxSp20cP6ELMgvS5nxhio2QRnsRYT.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/07/31/K9Gn5Ql4jQd29e6XpQ0JBPPl3dbDrtOqgfTYMo9H.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/07/31/OnDQNagTxdTIGS9tyNtOUlL5ZdmqRgrwGO7zRupq.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/07/31/6jRO5PaCzDMKCtSOgH9b6oStruHrzVeiV257Xdpc.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/07/31/y0Smqb8EJ3ZpWo2YWGqRxRjxZdtnYVPlsogadTal.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img width={1260} className='rounded-[20px]' src="https://api.lesailes.uz/storage/sliders/2024/07/15/H04FiqiZctYtCg88wagfsLw6kt3CSOCuBblzOUKw.jpg" alt="" /></SwiperSlide>
         
       </Swiper>
     </>

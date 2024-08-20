@@ -10,6 +10,10 @@ import Login from "./pages/Login";
 import BurgerMenu from "./pages/BurgerMenu";
 // import Regis from "./pages/Regis";
 
+
+
+
+
 const Navbar = () => {
   const { basket } = useContext(BasketContext);
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -47,6 +51,9 @@ const Navbar = () => {
       >
         Savatga|{basket.length}
       </NavLink>
+
+
+      
 
       <section className="MOBILE-MENU flex showsomething">
         <div
@@ -96,6 +103,9 @@ const Navbar = () => {
 
             
           </ul>
+
+
+         
         </div>
         <ul className="DESKTOP-MENU hidden  lg:flex">
           <li>
